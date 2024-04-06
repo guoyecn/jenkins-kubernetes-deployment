@@ -10,9 +10,7 @@ pipeline {
        // git  branch: 'main',
        //        credentialsId: 'github-credentials',
       //          url: 'https://github.com/guoyecn/jenkins-kubernetes-deployment.git'
-        script (
-                     echo "git pull"
-         }
+                     echo "step 1"
       }
     }
     stage('Build image') {
